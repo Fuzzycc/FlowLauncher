@@ -1,6 +1,6 @@
 <!--
     Name: Tinted Glass - Pure Blur
-    IsDark: True
+    IsDark: False
     HasBlur: True
 -->
 <ResourceDictionary
@@ -16,6 +16,9 @@
     
     <!-- Blur behind the window -->
     <system:Boolean x:Key="ThemeBlurEnabled">True</system:Boolean>
+	<system:String x:Key="SystemBG">Light</system:String>
+	<Color x:Key="LightBG">#CEFAFAFA</Color>
+	<Color x:Key="DarkBG">#D6202020</Color>
     
     <!-- Main window background -->
     <Style
